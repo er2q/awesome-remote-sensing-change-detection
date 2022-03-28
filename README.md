@@ -179,6 +179,9 @@ from natural disasters to man-made disasters](https://github.com/Z-Zheng/ChangeO
 
 
 ## 3.Contest
+- [DynamicEarthNet：用于语义变化分割的每日多光谱卫星数据集](https://codalab.lisn.upsaclay.fr/competitions/2882#learn_the_details-overview)*
+We present DynamicEarthNet, a large-scale daily semantic change segmentation dataset. Recent advances in earth vision tools enable us to observe the evolution of land use across the globe with an unprecedented precision. We utilize the high-resolution and time-series characteristics of such satellite data to construct a large-scale benchmark. The goal is to predict land use and land cover classes per pixel, as well as the change between these classes over time.
+
 - [2021“昇腾杯”遥感影像智能处理算法大赛-耕地建筑物变化检测](http://rsipac.whu.edu.cn/subject_two)*(Wuhan University, Sep 2021)*   
 通过前后两时相的遥感影像，提取出地物发生变化的像元并赋予变化标签。 依据所述地物变化标准，以耕地-建筑/动土的像素级变化检测为目标。数据为1-2米分辨率光学遥感影像，6000+张遥感影像变化检测样本数据(按512 X 512大小折算)。标签格式为单通道的png，每个像素的标签值由一个数值表示， 使用‘uint8’数据类型存储，该数值表示是否为变化，“0”代表未变化，“1”代表变化。Top5解决方案详见[78666621
 /
